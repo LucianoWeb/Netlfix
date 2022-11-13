@@ -1,0 +1,78 @@
+.cont-header{
+    background: radial-gradient(#00000005, #000000), url(../assets/Netf.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+.header h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #e50914;
+}
+.lang{
+    gap: 2rem;
+   display: flex;
+   align-items: center;
+}
+.globo{
+    font-size: 1rem;
+    color: white;
+    position: relative;
+    margin-right: -20px;
+}
+.langco{
+    display: flex;
+    align-items: center;
+}
+.languages{
+    text-decoration: none;
+    border: none;
+    font-size: 1rem;
+    background: rgba(0, 0, 0, 0.514);
+    color: white;
+    padding:.5rem 0 .5rem 1.5rem;
+    border: 1px solid white;
+    border-radius: 3px;  
+}
+.button-sign{
+    text-decoration: none;
+    border: none;
+    font-size: 1rem;
+    background-color: #e50914;
+    color: white;
+    padding: .4rem 1.5rem;
+    border-radius: 5px;
+}
+@media(max-width:768px){
+    .cont-header{
+        height: 65vh;
+    }
+    .header{
+        padding: 1rem;
+    }
+    .header h1{
+     font-size: 1.6rem;
+    }
+    .button-sign{
+        font-size: .8rem;
+        padding: .2rem .4rem;
+        font-weight: 600;
+        
+    }
+    .languages{
+        font-size: .8rem;
+    }
+    .lang{
+        gap: 1rem;
+    }
+ }
+ @media(max-width:1080px){
+    .cont-header{
+        height: 70vh;
+    }
+ }

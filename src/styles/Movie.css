@@ -1,0 +1,31 @@
+.moviecard{
+    list-style: none;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.moviegrid{
+display: grid;
+grid-template-columns: repeat(auto-fill, 300px);
+justify-content: center;
+gap: 2rem;
+padding-top: 5rem;
+
+}
+.movieimg{
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px white;
+    background-image: azure;
+    width: 250px;
+    
+    
+}
+.movieimg:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0 0 15px white;
+    opacity: .8;
+   
+}

@@ -1,0 +1,90 @@
+.get{
+    max-width: 50rem;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 8rem;
+    text-align: center;
+    color: white;
+
+}
+.texts-get h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.input-get{
+    border: none;
+    width: 32rem;
+    border-radius: 1px;
+   border-top-left-radius: 3px;
+   border-bottom-left-radius: 3px;
+    
+}
+.input-get:focus{
+    box-shadow: none !important;
+    border: none !important;
+}
+.form-get{
+    color: rgb(82, 82, 82);
+    font-weight: 100;
+    display: flex; 
+ 
+}
+
+.button-get{
+    background-color: #e10712;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 0 2rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+.button-get:hover{
+
+    background-color: #e3121c;
+    transition: .3s;
+}
+@media (max-width:768px){
+    .texts-get h2{
+        font-size: 1.5rem;
+        font-weight: 900;
+        max-width: 20rem;
+        margin: 0 auto;
+        margin-top: -2rem;
+        
+    }
+    .texts-get h3{
+        font-size: 1.2rem;
+        padding: 1rem 0 !important;
+    }
+    .texts-get h5{
+        font-size: 1.2rem;
+        max-width: 20rem;
+        margin: 0 auto;
+        padding: 0 !important;
+    }
+    .input-get{
+        width: 21rem;
+        margin:  1rem 0;
+    
+    }
+    .form-get{
+        display: block;
+        margin: 0 auto;
+    }
+    .button-get{
+        font-size: 1.2rem;
+        padding: .5rem 1rem;
+       display: flex;
+       align-items: center;
+       margin: 0 auto;
+        
+    }
+    .chev{
+        font-size: .8rem !important;
+    }
+}

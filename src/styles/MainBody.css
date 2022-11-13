@@ -1,0 +1,168 @@
+.border-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid #222222;
+    padding: 3rem;
+    gap: 7rem;
+    overflow: hidden;
+}
+
+.text-main {
+    max-width: 37rem;
+    color: white;
+    margin-top: 3rem;
+
+}
+.border-bot{
+    border-bottom: 10px solid #222222;
+}
+
+.text-main h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.text-main h5 {
+    font-size: 1.7rem;
+    padding: 1.5rem 0;
+}
+
+
+.img-main .img {
+    width: 35rem;
+    position: relative;
+
+}
+
+.img-main .video1 {
+    position: relative;
+    width: 25.4rem;
+    margin-left: -30.2rem;
+    margin-bottom: -6rem;
+    z-index: -10;
+}
+
+.downloading {
+    display: flex;
+    position: absolute;
+    margin-top: -8rem;
+    margin-left: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border: 2px solid #454545;
+    padding: .7rem 1rem;
+    border-radius: 15px;
+    gap: 5rem;
+}
+
+.downloading img {
+    width: 4rem;
+    height: 5rem;
+}
+
+.video2 {
+
+    position: relative;
+    width: 20rem;
+    margin-left: -28rem;
+    margin-top: 6.5rem;
+    z-index: -5;
+
+}
+
+.downloading p {
+    color: white;
+    font-weight: 700;
+}
+
+.downloading p span {
+    color: #0062cd;
+    font-weight: 700;
+}
+
+.downloading .spiner {
+  
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+@media(max-width:768px) {
+    .border-main-rev {
+        flex-direction: column !important;
+    }
+    .border-main {
+        flex-direction: column-reverse ;
+        gap: 0;
+    }
+
+    .video2 {
+        width: 15rem;
+        display: flex;
+        margin-left: 5rem;
+        margin-top: -17rem;
+        margin-bottom: 10rem;
+
+    }
+
+    .text-main {
+        margin-top: 0;
+        width: 20rem;
+        text-align: center;
+    }
+.downloading .spiner{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+    .text-main h3 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .text-main h5 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1.5rem;
+    }
+
+    .img-main .video1 {
+        position: relative;
+        display: flex;
+        width: 18.5rem;
+        margin-left: 3rem;
+        margin-top: -15rem;
+        margin-bottom: 10rem;
+    }
+
+    .img-main .img {
+        width: 25rem;
+        margin-top: -1rem;
+    }
+
+    .downloading {
+        padding: .3rem;
+        margin-top: -6rem;
+        margin-left: 4.2rem;
+    }
+
+    .downloading img {
+        width: 2rem;
+        height: 3rem;
+    }
+
+    .downloading p {
+        font-size: .8rem;
+    }
+
+}
+@media(max-width:1090px){
+    .border-lg{
+        flex-direction: column-reverse;
+    }
+    .border-main{
+        text-align: center;
+    }
+   
+}

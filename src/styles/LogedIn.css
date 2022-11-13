@@ -1,0 +1,243 @@
+.cont-loged{
+    background-size: cover;
+    height: 100vh;
+    padding: 1rem 5rem;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)), url(/src/assets/backloged.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.m-nav{
+    margin-left: -15rem;
+}
+.loged-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loged-nav div{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: rgb(232, 232, 232);
+}
+@media (max-width:1089px){
+    .cont-loged{
+        padding: 1rem;
+    }
+    .loged-nav{
+        flex-direction: column;
+    }
+    .m-nav{
+        margin: 1rem 0rem;
+        
+    }
+}
+@media (max-width: 768px){
+    .cont-loged{
+        padding: 1rem;
+        height: 100%;
+    }
+    .loged-nav{
+        flex-direction:row;
+        
+    }
+    .m-m{
+        margin-top: 1rem;
+    }
+    .loged-nav .m-nav{
+        display: none;
+    }
+    .loged-nav div{
+        gap: 1.2rem;
+        font-size: 1rem;
+        flex-wrap: wrap;
+    }
+}
+.loged-nav p{
+    margin: 0;
+}
+.loged-nav p:hover{
+    color: rgb(192, 192, 192);
+    cursor: pointer;
+}
+.loged-nav h3{
+    margin: 0;
+    color: #e50914;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    user-select: none;
+}
+.icon-loged{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+.menu-loged{
+    background-color: rgba(0, 0, 0, 0.731);
+    padding: 2rem;
+}
+.menu-loged p{
+    color: white;
+}
+.menu-loged p:hover{
+    background: none !important;
+    text-decoration: underline;
+}
+.divider-menu{
+    border: 1px solid rgb(221, 221, 221);
+}
+.sign-out{
+    color: white;
+    margin: 0 auto;
+    margin-left: 1.5rem;
+    padding: 0;
+}
+.sign-out:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* Descrption movie */
+.description{
+    margin-top: 10rem;
+    max-width: 40rem;
+}
+.logo-loged{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+
+}
+.age{
+    background-color: rgba(45, 45, 45, 0.525);
+    padding: .4rem 4rem .4rem 1rem;
+    margin-right: -5rem;
+    border-left: 3px solid white;
+}
+.age p{
+    background-color: #ff5b20;
+    color: white;
+    margin: 0;
+    font-weight: 700;
+    padding: .1rem .3rem;
+    border-radius: 5px;
+    
+}
+.logo-loged img{
+    height: 3rem;
+    width: 3rem;
+}
+.logo-loged p{
+    margin: 0;
+    font-size: 1.5rem;
+    color: rgb(196, 196, 196);
+    letter-spacing: 3px;
+}
+.movie-loged h3{
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(228, 228, 228);
+    font-family: "Lobster";
+    letter-spacing: 3px;
+}
+.movie-loged p{
+    color: rgb(228, 228, 228);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.button-play{
+    display: flex;
+    gap: 1rem;
+   
+}
+.button-play .btn1{
+    font-size: 1.1rem;
+    background-color: white;
+    color: black;
+    padding: 0.1rem 1.5rem;
+    font-weight: 700;
+}
+.button-play .btn1:hover{
+    background-color: rgb(192, 192, 192);
+}
+.button-play .btn2{
+    font-size: 1.1rem;
+    background-color: rgb(88, 88, 88);
+    color: white;
+    padding: 0 1.7rem;
+    font-weight: 700;
+}
+.button-play .btn2:hover{
+    background-color:rgb(39, 39, 39) ;
+}
+
+/*Recomendation*/
+.recomendation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 2rem;
+}
+.recomendation div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1rem;
+    
+    text-align: center;
+}
+
+.logo-reco{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.recomendation .like{
+    border-right: 1px solid white;
+    padding: 0 1rem;
+    width: 20rem;
+}
+.cast ul{
+    display: flex;
+    gap: 1rem;
+    width: 20rem;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+.trending h3{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 700;
+    margin-left: 5rem;
+    text-decoration: underline;
+}
+.cast ul .li-m{
+    margin-top: -1rem;
+}
+@media (max-width:768px){
+    .description{
+        margin-top: 3rem;
+    }
+    .recomendation{
+        flex-direction: column;
+    }
+    .recomendation .like{
+        border: none;
+    }
+    .trending h3{
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+}
+@media (max-width:1080px){
+    .description{
+        margin-top: 5rem;
+    }
+}

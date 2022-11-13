@@ -1,0 +1,70 @@
+.error-header{
+    background-color: rgb(3, 3, 3);
+    height: 10vh;
+    padding: 1.5rem;
+}
+.error-header h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #e40813;
+}
+.er-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.201)), url(../assets/bg-404.png);
+    background-size: cover;
+    height: 90vh;
+}
+
+.er-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 8rem;
+}
+.er-text h3{
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+.er-text p{
+    font-size: 1.7rem;
+    max-width: 50rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.er-btn{
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.er-btn:hover{
+    color: black;
+    opacity: 70%;
+}
+.er-code{
+    
+    border-left: 2px solid #e40813;
+    text-align: center;
+    padding: .8rem;
+}
+@media(max-width:768px){
+    .error-header{
+        text-align: center
+    }
+    .er-text h3{
+        font-size: 2rem;
+    }
+    .er-text p{
+        font-size: 1rem;
+    }
+    .er-btn{
+        font-size: .8rem;
+        padding: .3rem .8rem;
+        margin-bottom: 5rem;
+    }
+}

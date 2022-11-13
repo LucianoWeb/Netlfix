@@ -1,0 +1,111 @@
+.container-sign {
+    background: linear-gradient(rgba(0, 0, 0, 0.358), rgba(0, 0, 0, 0.356)), url(../assets/Netf.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5rem 3rem;
+}
+
+
+.container-sign h2 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #e50914;
+    text-transform: uppercase;
+}
+.form-sign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 30rem;
+    padding: 3rem 2rem;
+    margin: 0 auto;
+ 
+}
+
+.form-sign legend{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    margin-left: 4rem;
+   text-align: left;
+}
+@media(max-width:768px){
+    .container-sign{
+        background: black;
+        height: 100%;
+        padding: 1rem;
+    }
+    .container-sign h1{
+        font-size: 1.8rem;
+    }
+    .form-sign{
+        width: 20rem;
+    }
+    .form-sign legend{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+.form-sign input{
+    width: 22rem;
+    background: #333333;
+    border: none;
+    color: white;
+}
+.form-sign input:focus{
+    background: #333333;
+    box-shadow: none !important;
+    border: none;
+    color: white;
+}
+.form-sign label{
+    color: rgb(190, 190, 190);
+}
+.btn-sign{
+    color: white;
+    margin-top: 2rem;
+    background-color: #e50914;
+    padding: 1rem 3rem;
+    width: 22rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+}
+.btn-sign:hover{
+    color: white;
+}
+.btn-sign-esp{
+    color: white;
+    margin-top: 2rem;
+    background-color: #e50914;
+    padding: 1rem 3rem;
+    width: 22rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px white;
+}
+.btn-sign-esp:hover{
+    color: rgb(32, 32, 32);
+    box-shadow: 0 0 10px white;
+    transition: .3s;
+}
+.modal-content{
+    background-color: #333333;
+    color: white;
+}
+.btn-close-sign{
+    background-color: #e50914;
+    color: white;
+    padding: .7rem;
+    border: 2px solid #1b1b1b;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
