@@ -12,6 +12,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.201)), url(../assets/bg-404.png);
     background-size: cover;
     height: 90vh;
+    background-position: center;
 }
 
 .er-text{
